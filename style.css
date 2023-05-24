@@ -1,0 +1,144 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #f5f5f5;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  background-color: #32a852;
+  background-image: url("https://shihabiiuc.com/wp-content/uploads/2023/05/axis-wide-opacity-20.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 30px 15px;
+  min-height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.container .elements {
+  background-color: #218f3f;
+  border: 1px solid #177a32;
+  max-width: 600px;
+  text-align: center;
+}
+.container .elements h2 {
+  margin: 0 0 10px;
+  color: #ffffff;
+}
+.container .elements img {
+  max-width: 100%;
+}
+.container .elements p {
+  color: #000000;
+}
+.container .elements a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  color: #ffffff;
+  background-color: #222222;
+  border: 1px solid #000000;
+  border-radius: 25px;
+  padding: 10px 20px;
+  display: inline-block;
+  -webkit-transition: background-color 0.4s ease-in-out;
+  transition: background-color 0.4s ease-in-out;
+}
+.container .elements a:hover {
+  background-color: #000000;
+}
+
+.example-2 {
+  background-color: #fcba03;
+  background-image: url("https://shihabiiuc.com/wp-content/uploads/2023/05/axis-wide-opacity-20.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 30px 15px;
+  min-height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.example-2 .holder {
+  background-color: #e3a700;
+  max-width: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.example-2 .holder .item {
+  border: 2px solid #ffffff;
+  background-color: rgba(255, 255, 255, 0.2);
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.example-3 {
+  background-color: #3271a8;
+  background-image: url("https://shihabiiuc.com/wp-content/uploads/2023/05/axis-wide-opacity-20.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 30px 15px;
+}
+.example-3 .wrapper {
+  background-color: rgba(34, 92, 143, 0.6);
+  border: 1px solid #194e7d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.example-3 .wrapper span {
+  font-size: 3em;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 1px solid #222222;
+  padding: 30px;
+  margin: 5px;
+  line-height: 1;
+}/*# sourceMappingURL=style.css.map */
