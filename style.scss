@@ -83,7 +83,7 @@ img {
     .item {
       border: 2px solid #ffffff;
       background-color: rgba($color: #ffffff, $alpha: 0.2);
-      flex: 1;
+      // flex: 1;
     }
   }
 }
@@ -112,5 +112,38 @@ img {
       margin: 5px;
       line-height: 1;
     }
+  }
+}
+
+// EXAMPLE 4
+.example-4 {
+  background-color: aqua;
+  background-image: url("https://shihabiiuc.com/wp-content/uploads/2023/05/axis-wide-opacity-20.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 600px;
+  padding: 30px 15px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  p {
+    max-width: 600px;
+    text-align: center;
+  }
+
+  a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    color: #ffffff;
+    background-color: #222222;
+    border: 1px solid #000000;
+    border-radius: 25px;
+    padding: 10px 20px;
+    display: inline-block;
   }
 }
